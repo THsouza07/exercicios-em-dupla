@@ -8,9 +8,9 @@ class Carro:
         self.marca = marca
         self.ligado = False  
 
-    def __str__(self):
+    def __string__(self):
         estado = "ligado" if self.ligado else "desligado"
-        return f'''Marca: {self.marca} 
+        return f'''Marca: {self.marca}
         Modelo: {self.modelo} 
         Cor: {self.cor} 
         Ano: {self.ano}

@@ -13,7 +13,7 @@ class Animal:
         print(f"Espécie: {self.especie}")
         self.emitir_som()
 
-  class Cachorro(any):
+  class Cachorro(Animal):
     def __init__(self, nome, idade):
         super().__init__(nome, idade, "Cachorro")
 
